@@ -146,6 +146,6 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fo
 
 For any inquiries or questions, feel free to reach out:
 
-- **Email:** maheshsp1809.email@example.com
+- **Email:** maheshsp1809@gmail.com
 
 ---

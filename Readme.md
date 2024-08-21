@@ -36,6 +36,108 @@
 - **IntelliJ IDEA** (Backend development)
 - **VS Code** (Frontend development)
 
+## 📂 Project Structure
+
+```plaintext
+ZoshFood/
+├── backend/
+│   ├── src/
+│   │   ├── main/
+│   │   ├── resources/
+│   │   ├── java/
+│   │   └── application.properties
+│   └── pom.xml
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   ├── services/
+│   │   └── App.js
+│   ├── package.json
+│   └── tailwind.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** and **npm/yarn**
+- **Java JDK 8+**
+- **MySQL Database**
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/zoshfood.git
+   ```
+2. **Backend Setup:**
+
+   - Navigate to the `backend` directory.
+   - Configure the `application.properties` file with your MySQL database credentials.
+   - Build and run the Spring Boot application:
+     ```bash
+     mvn clean install
+     mvn spring-boot:run
+     ```
+
+3. **Frontend Setup:**
+   - Navigate to the `frontend` directory.
+   - Install the dependencies:
+     ```bash
+     npm install
+     ```
+   - Start the React development server:
+     ```bash
+     npm start
+     ```
+
+## 🔧 Usage
+
+### Customer:
+
+1. **Browse Restaurants:** View all available restaurants.
+2. **Add to Cart:** Select food items and add them to the cart.
+3. **Place Order:** Add delivery address and proceed to payment.
+4. **Order Tracking:** Track your order status.
+
+### Restaurant Owner:
+
+1. **Manage Menu:** Add, edit, or remove food items.
+2. **View Orders:** Check incoming orders and update their status.
+3. **Host Events:** Create and manage restaurant events.
+
+## 🚀 Deployment
+
+### Backend:
+
+1. Build the Spring Boot application:
+   ```bash
+   mvn clean package
+   ```
+2. Deploy the `.jar` file on a server (e.g., AWS, Heroku).
+
+### Frontend:
+
+1. Build the React application:
+   ```bash
+   npm run build
+   ```
+2. Deploy the `build` folder on a web server (e.g., Netlify, Vercel).
+
+## 🛡️ Security
+
+- **Authentication:** JWT for secure API access.
+- **Encryption:** Passwords are hashed using bcrypt.
+- **Data Validation:** Backend input validation using Hibernate Validator.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to get started.

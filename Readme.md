@@ -27,7 +27,7 @@
 - **Spring Boot**
 - **Spring Security**
 - **JWT Authentication**
-- **MySQL** (Database)
+- **POSTGRESQL** (Neon Tech online Database instance)
 - **Spring Mail** (Email service)
 - **Stripe API** (Payment gateway)
 
